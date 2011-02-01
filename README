@@ -5,7 +5,12 @@
  *
  * 
  *  @author Federico J. Botti - fbotti@gmail.com
- *  @
+ *  @version 0.1
  * 
  * 
  *************************************************************/
+
+ For now: 
+  
+ - It works for moodle 1.8.x and in moodle 1.9
+ - It has a separate configuration for smtp server. It not depends on the moodlesmtp server configuration.
