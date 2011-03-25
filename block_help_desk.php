@@ -1,10 +1,9 @@
-<?php //$Id: block_help_desk.php,v 0.5 2007-12-16 10:00:00 fbotti Exp $
+<?php //$Id: block_help_desk.php,v 0.5 2011-03-24 22:00:00 fbotti Exp $
 
 class block_help_desk extends block_base {
 
 	function init() {
-	        $this->title = get_string('helpdesktitle', 'block_help_desk');
-	        $this->version = 2008012300;
+	        $this->title = get_string('helpdesk', 'block_help_desk');
  	}
 
 	function has_config(){
