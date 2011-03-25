@@ -17,7 +17,8 @@ class block_help_desk extends block_base {
 	   	}
 
 	    	$this->content= new stdClass;
-	   	$this->content->text= '<form style="margin-top:0px;" id="help_desk_form" method="post" action="'.$CFG->wwwroot.'/blocks/help_desk/help_desk_send.php" method="POST">'.
+                $this->content->text=get_string ('blockintroduction','block_help_desk').'<br /><br />';
+	   	$this->content->text.= '<form style="margin-top:0px;" id="help_desk_form" method="post" action="'.$CFG->wwwroot.'/blocks/help_desk/help_desk_send.php" method="POST">'.
 				   '<input type="hidden" name="courseid" value="'.$COURSE->id .'">'.
 				   ''.get_string ('name','block_help_desk').'<br />'.
 				   '<input type="text" value="" name="name"/><br />'.

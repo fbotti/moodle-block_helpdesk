@@ -3,6 +3,7 @@
   $string['helpdesk'] = 'Help Desk';
   
   /*** Fields of the blockform ***/
+  $string['blockintroduction'] = 'Got doubts? Need assitence? Please fill the form below!';
   $string['name'] = 'Name';
   $string['email'] = 'Email';
   $string['country'] = 'Country';
