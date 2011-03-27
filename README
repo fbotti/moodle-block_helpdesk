@@ -1,18 +1,27 @@
 /*************************************************************
  *
- *  HelpDesk Block for Moodle 2.x
+ *  HelpDesk Block for Moodle 2.0.x
  *
  *
  * 
  *  @author Federico J. Botti - fbotti@gmail.com
- *  @version 0.1
+ *  @version 0.5
  * 
  * 
  *************************************************************/
 
-For now: 
-  
- - It works for moodle 1.8.x and in moodle 1.9
- - It has a separate configuration for smtp server. It not depends on the moodlesmtp server configuration.
+Features:
+ 
+ * Moodle 2.0.x compatible.
+ * Separate configuration for smtp server. It doesn't depend on the SMTP Server Moodle's configuration.
+ * ReCaptcha Compatible for security.
+ * Contact the Moodle administration or the person designated to be the help 
+desk of your moodle site. 
+ * You are getting problems with the platform? There is no need to be loggedin 
+to contact the help desk. 
+ * It could be easily integrated with a Ticket Support System. 
 
+TODO : 
+ * Error Management in send.php file. Moodle Exceptions?
+ * reCaptcha form element.
  
